@@ -25,39 +25,111 @@
         width="250">
      <h3>Meeting Topic: performance</h3>
      <h3>Date: 4.16.23</h3>
+       <details>
+    <summary>Details</summary>
+    Only invited members could attend.
+</details>
       
      <section>
      <h2 id="attendees">Attendees</h2>
       <ul>
-        <li>me</li>
-        <li>myself</li>
-        <li>I</li>
+        <li>person A</li>
+        <li>person B</li>
+        <li>person C</li>
+        <li><me</li>
        </ul>
        </section>
        
       <section>
       <h2 id="agenda">Agenda</h2>
       <ol>
-        <li>eat</li>
+        <li>eat
         <p> I made <b class="term">frittatas</b> (egg-based crustless quiche dish), <b class="term">muffins</b> (like a cupcake, but without icing),
           and <b class="term">pancakes</b> (flat, circular cake; they were all promptly devoured. <strong> The pancakes were the most delicious. </strong>
         <br>The pancakes were made from this recipe. <a href="https://www.allrecipes.com/recipe/21014/good-old-fashioned-pancakes/">Pancake Recipe</a> </p>
-        <li>talk</li>
-        <p> We gossipped about celebrities. </p> <audio src="file_example_MP3_700KB.mp3" controls></audio>
-        <li>drink</li>
-        <p> We drank <i>peach</i> and <i>mango</i> juice. <em>The drinks were non-alcoholic.</em> </p>
-        <li>video</li>
+        </li>
+        <li>talk
+        <p> We gossipped about celebrities. </p> <audio src="file_example_MP3_700KB.mp3" controls></audio> </li>
+        <li>drink
+        <p> We drank <i>peach</i> and <i>mango</i> juice. <em>The drinks were non-alcoholic.</em> </p> </li>
+        <li>video
         <video width="320" height="240" controls>
         <source src="Sample-MP4-Video-File-for-Testing.mp4" type=video/mp4>
-        </video>
+          </video> </li>
       </ol>
        </section>
+       
+       <h3> Fill out this form to be invited to the next meeting. </h3>
+       <form>
+         <fieldset>
+         <legend>Future Member:</legend>
+          <label for="fname">First name:</label><br>
+          <input type="text" id="fname" name="fname"><br>
+          <label for="lname">Last name:</label><br>
+          <input type="text" id="lname" name="lname"><br><br>
+         </fieldset>
+         
+         <label for="party">Next party date:</label>
+          <input type="date" id="party" name="trip-start"
+          value="2018-07-22"
+          min="2023-04-17" max="2023-12-31">
+
+         
+            <textarea name="message" rows="10" cols="30">
+            Choose your fave: button1 or button2!
+            </textarea>
+           <input type="button1">
+           <input type="button2">
+           
+         <fieldset>
+           <input type="checkbox" id="food1" name="frittata" value="frittata">
+            <label for="food1"> I want a frittata</label><br>
+            <input type="checkbox" id="food2" name="muffin" value="muffin">
+            <label for="food2"> I want a muffin</label><br>
+             <input type="checkbox" id="food3" name="pancake" value="pancake">
+            <label for="food3"> I want a pancake</label>=
+         </fieldset>
+         
+         <fieldset>
+           <label for="pancake-choice">Choose a flavor:</label>
+          <input list="pancake-flavors" id="pancake-choice" name="pancake-choice">
+
+          <datalist id="pancake-flavors">
+              <option value="Chocolate chip">
+              <option value="Blueberry">
+              <option value="Lemon Ricotta">
+              <option value="Plain">
+          </datalist>
+         </fieldset>
+         
+         <fieldset>
+          <label for="allergies-select">Choose an allergy:</label>
+
+          <select name="allergies" id="allergies-select">
+              <option value="">--Please choose an option--</option>
+              <option value="I have no allergy">none</option>
+              <option value="I have nuts allergy">nuts</option>
+              <option value="I have fruit allergy">fruit</option>
+              <option value="I have gluten allergy">gluten</option>
+          </select>
+         </fieldset>
+         
+         
+         <fieldset>
+            <input type="radio" id="alc" name="fav_drink" value="alc">
+            <label for="alc">I drink alcohol.</label><br>
+            <input type="radio" id="noalc" name="fav_drink" value="noalc">
+            <label for="noalc">I do not drink alcohol.</label><br>
+           </fieldset>
+         
+          <input type="submit" value="Submit">
+       </form>
       
     </main>
       <hr>
       
       <footer>
-      <h4>Minutes taken by Christina Tan</h3>
+      <h4>Minutes taken by Christina Tan</h4>
       </footer>
      </body>
    </html>
