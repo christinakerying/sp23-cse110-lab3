@@ -1,13 +1,31 @@
-Daily Standup Notes
+# Daily Standup Notes
 
-Team Name: 
-Direct Supervisor:
-Table of Contents: 
+## Team Name: 
+
+## Direct Supervisor: 
+
+## Table of Contents: 
 
 
 
-Date - 
-Name: 
-Priorities:
-Progress:
-Problems:
+### Date:
+### Time: 
+
+### Name: 
+
+### Priorities:
+1. 
+2. 
+3. 
+
+### Progress:
+1. 
+2. 
+3. 
+
+### Problems:
+1. 
+2.
+3.
+
+### Additional Notes: 
