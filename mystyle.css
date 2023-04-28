@@ -1,17 +1,29 @@
-body {
-  background-color: lightblue;
+* {
+    margin: 0.7;
 }
 
-h1 {
+.highlight {
+    background-color: yellow;
+}
+
+h1, h4 {
   background-color: hsl (300, 76%, 72%); 
   color: #FFFFFF;
 }
 
-h2 {
-  background-color: rgb(128, 0, 0) ; 
+#one {
+   background-color: rgb(128, 0, 0) ; 
   color: #FFFFFF;
 }
 
 li {
   font-size: 80%;
 }
+
+li[class="a"] {
+    background-color: lightgreen;
+}
+
+a:hover {
+    color:hotpink;
+} 
