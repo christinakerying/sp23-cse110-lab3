@@ -1,3 +1,17 @@
 body {
   background-color: lightblue;
 }
+
+h1 {
+  background-color: hsl (300, 76%, 72%); 
+  color: #FFFFFF;
+}
+
+h2 {
+  background-color: rgb(128, 0, 0) ; 
+  color: #FFFFFF;
+}
+
+li {
+  font-size: 80%;
+}
