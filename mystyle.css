@@ -29,8 +29,8 @@ body {
     background-color: yellow;
 }
 
-  /*turns h2, h4 text to magenta color*/ 
-h2, h4 {
+  /*turns h3, h4 text to magenta color*/ 
+h3, h4 {
   color: hsl (300, 76%, 72%); /*magenta*/
 }
 
