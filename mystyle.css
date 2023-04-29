@@ -3,12 +3,12 @@ html {
   font-size: 16px;
 }
 
-/*default background color is lightblue*/
+/*default background color is magenta*/
 body {
-  background-color: lightblue;
+  background-color: hsl (300, 76%, 72%); /*magenta*/
 }
 
-/*turns background to lavender in 500px windows, lightblue for smaller than 500px*/
+/*background turns lavender in 500px windows, magenta for smaller than 500px*/
 @media screen and (min-width: 500px) {
   body {
     background-color: lavender;
@@ -32,7 +32,7 @@ h1 {
 
 /*turns h3, h4 text to magenta color*/ 
 h3, h4 {
-  color: hsl (300, 76%, 72%); /*magenta*/
+  color: lightblue;
 }
 
 /*for fill out this form banner*/
