@@ -1,3 +1,7 @@
+html {
+  font-size: 16px;
+}
+
 * {
     margin: 0.5pt;
 }
@@ -75,6 +79,6 @@ p.evil {
   line-height: 150px;
   color: white;
   font-weight: bold;
-  font-size: 3em;
+  font-size: 1.2rem;
   text-align: center;
 }
