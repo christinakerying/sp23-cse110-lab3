@@ -5,7 +5,7 @@ html {
 
 /*default background color is magenta*/
 body {
-  background-color: hsl (300, 76%, 72%); /*magenta*/
+  background-color: hsl(300, 76%, 72%); /*magenta*/
 }
 
 /*background turns lavender in 500px windows, magenta for smaller than 500px*/
