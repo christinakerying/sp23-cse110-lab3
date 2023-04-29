@@ -7,11 +7,17 @@ body {
   background-color: blue;
 }
 
-/*turns background to lavender in 800px windows, linen for smaller than 800px}*/
-@media screen and (min-width: 360px) {
+/*turns background to lavender in 500px windows, blue for smaller than 800px}*/
+@media screen and (min-width: 500px) {
   body {
     background-color: purple;
   }
+  
+  @media print {
+  body {
+    color: black;
+  }
+}
 
 * {
     margin: 0.5pt;
@@ -22,13 +28,13 @@ body {
 }
 
 h1, h4 {
-  background-color: hsl (300, 76%, 72%); 
-  color: #FFFFFF;
+  background-color: hsl (300, 76%, 72%); /*magenta*/
+  color: #00FF00; /*lime*/
 }
 
 #one {
-   background-color: rgb(128, 0, 0) ; 
-  color: #FFFFFF;
+   background-color: rgb(128, 0, 0) ; /*maroon*/
+  color: #000000; /*black*/ 
 }
 
 li {
