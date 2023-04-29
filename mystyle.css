@@ -18,6 +18,10 @@ body {
     color: black;
   }
 }
+  
+ h1 { 
+   font-size: 5vw;
+  }
 
 * {
     margin: 0.5pt;
