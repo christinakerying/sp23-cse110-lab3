@@ -1,5 +1,5 @@
 * {
-    margin: 0.7;
+    margin: 2.7;
 }
 
 .highlight {
@@ -30,4 +30,51 @@ a:hover {
 
 .highlight p {
     color: red
+}
+
+ul > li {
+    border-top: 5px solid red;
+} 
+
+h1 + p {
+    font-weight: bold;
+    background-color: #333;
+    color: #fff;
+    padding: .5em;
+}
+
+h2 ~ p {
+    font-weight: lighter;
+    background-color: hotpink;
+    color: #fff;
+    padding: .5em;
+}
+
+p.evil {
+    color: orange;
+}
+
+.flex-container {
+  display: flex;
+  
+ flex-direction: row;
+ flex-wrap: wrap;
+  justify-content: space-around;
+  
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.flex-item {
+  background: lightblue;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
 }
