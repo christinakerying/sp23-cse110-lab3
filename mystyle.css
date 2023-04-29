@@ -4,13 +4,13 @@ html {
 }
 
 body {
-  background-color: blue;
+  background-color: lightblue;
 }
 
 /*turns background to lavender in 500px windows, blue for smaller than 800px}*/
 @media screen and (min-width: 500px) {
   body {
-    background-color: purple;
+    background-color: lavender;
   }
   
   @media print {
@@ -28,13 +28,12 @@ body {
 }
 
 h1, h4 {
-  background-color: hsl (300, 76%, 72%); /*magenta*/
-  color: #00FF00; /*lime*/
+  color: hsl (300, 76%, 72%); /*magenta*/
 }
 
 #one {
    background-color: rgb(128, 0, 0) ; /*maroon*/
-  color: #000000; /*black*/ 
+  color: #00FF00; /*lime*/ 
 }
 
 li {
@@ -88,7 +87,7 @@ p.evil {
 }
 
 .flex-item {
-  background: lightblue;
+  background: lightorange;
   padding: 0.2pc;
   width: 200px;
   height: 150px;
