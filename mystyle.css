@@ -8,18 +8,11 @@ body {
   background-color: lightblue;
 }
 
-/*turns background to lavender in 500px windows, blue for smaller than 800px*/
+/*turns background to lavender in 500px windows, lightblue for smaller than 500px*/
 @media screen and (min-width: 500px) {
   body {
     background-color: lavender;
   }
-  
-  /*makes printed text color black*/
-  @media print {
-  body {
-    color: black;
-  }
-}
   
   /*set size for h1 text*/
  h1 { 
