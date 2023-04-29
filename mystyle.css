@@ -14,59 +14,59 @@ body {
     background-color: lavender;
   }
 }
-  
-  /*set size for h1 text*/
- h1 { 
-   font-size: 5vw;
-  }
 
-  /*margin for whole page*/
+/*set size for h1 text*/
+h1 { 
+   font-size: 5vw;
+}
+
+/*margin for whole page*/
 * {
     margin: 0.5pt;
 }
 
-  /*highlight function*/
+/*highlight function*/
 .highlight {
     background-color: yellow;
 }
 
-  /*turns h3, h4 text to magenta color*/ 
+/*turns h3, h4 text to magenta color*/ 
 h3, h4 {
   color: hsl (300, 76%, 72%); /*magenta*/
 }
 
-  /*for fill out this form banner*/
+/*for fill out this form banner*/
 #one {
    background-color: rgb(128, 0, 0) ; /*maroon*/
   color: #00FF00; /*lime*/ 
 }
 
-  /*list items' fontsized to be a lil smaller*/
+/*list items' fontsized to be a lil smaller*/
 li {
   font-size: 80%;
 }
 
-  /*agenda items are list items in class a, they'll be lightgreen*/
+/*agenda items are list items in class a, they'll be lightgreen*/
 li[class="a"] {
     background-color: lightgreen;
 }
 
-  /*link texts turn grey when you hover over them*/
+/*link texts turn grey when you hover over them*/
 a:hover {
     color:grey;
 } 
 
-  /*turns text that is highlighted into red color*/ 
+/*turns text that is highlighted into red color*/ 
 .highlight p {
     color: red
 }
 
-  /*border line on top of list elements*/
+/*border line on top of list elements*/
 ul > li {
     border-top: 2px solid red;
 } 
 
-  /*for Here is What you Missed*/
+/*for Here is What you Missed*/
 h1 + p {
     font-weight: bold;
     background-color: #333;
@@ -74,7 +74,7 @@ h1 + p {
     padding: .5em;
 }
 
-  /*hotpink box to showcase general sibling combinator*/
+/*hotpink box to showcase general sibling combinator*/
 h2 ~ p {
     font-weight: lighter;
     background-color: hotpink;
@@ -82,13 +82,13 @@ h2 ~ p {
     padding: .5em;
 }
 
-  /*turns evil members' names orange*/
+/*turns evil members' names orange*/
 p.evil {
     color: orange;
 }
 
   
-  /*flex container is for the members who attended*/
+/*flex container is for the members who attended*/
 .flex-container {
   display: flex;
   
