@@ -32,7 +32,7 @@ p.nonedisplay {
 }
 
 div.box1 {
-  height: 50px
+  height: 50px;
   width: 320px;
   padding: <top> 5px;
   margin: <top> 0;
