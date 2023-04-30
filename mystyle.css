@@ -32,25 +32,29 @@ p.nonedisplay {
 }
 
 div.box1 {
+  height: 50px
   width: 320px;
-  padding: <top> 10px;
+  padding: <top> 5px;
   margin: <top> 0;
   border-top-style: solid;
   border-top-color: black;
 }
 
 div.box2 {
+  height: 50px;
+  width: 320px;
   border-width: 1px;
   border-style: solid;
   border-color: green;
   width: 320px;
-  padding-top: 10px;
+  padding-top: 5px;
   margin-top: 0;
 }
 
 div.box3 {
+  height: 50px;
   width: 320px;
-  padding: <top> 10px;
+  padding: <top> 1px;
   margin: auto;
   border: 10px solid rebeccapurple;
   border-radius: 1em;
