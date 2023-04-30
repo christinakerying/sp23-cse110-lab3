@@ -3,12 +3,12 @@ html {
   font-size: 16px;
 }
 
-/*default background color is magenta*/
+/*default background color is lightblue*/
 body {
-  background-color: hsl(300, 76%, 72%); /*magenta*/
+  background-color: lightblue;
 }
 
-/*background turns lavender in 500px windows, magenta for smaller than 500px*/
+/*background turns lavender in 500px windows, lightblue for smaller than 500px*/
 @media screen and (min-width: 500px) {
   body {
     background-color: lavender;
@@ -32,7 +32,7 @@ h1 {
 
 /*turns h3, h4 text to magenta color*/ 
 h3, h4 {
-  color: lightblue;
+  color: darkblue;
 }
 
 /*for fill out this form banner*/
@@ -82,9 +82,9 @@ h2 ~ p {
     padding: .5em;
 }
 
-/*turns evil members' names orange*/
+/*turns evil members' names into magenta*/
 p.evil {
-    color: orange;
+    color: hsl(300, 76%, 72%); /*magenta*/;
 }
 
   
