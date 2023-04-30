@@ -113,3 +113,8 @@ p.evil {
   font-size: 1.2rem;
   text-align: center;
 }
+
+/*thick underline*/
+.thick {
+  text-decoration: solid underline purple 4px;
+}
