@@ -187,7 +187,7 @@ p.evil {
 .grid-item {
   background-color: pink;
   border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
+  padding: 22px;
+  font-size: 33px;
+  text-align: right;
 }
