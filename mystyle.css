@@ -9,9 +9,9 @@ body {
 }
 
 /*background turns lavender in 500px windows, lightblue for smaller than 500px*/
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 800px) {
   body {
-    background-color: lightbrown;
+    background-color: lavender;
   }
 }
 
