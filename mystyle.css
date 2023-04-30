@@ -5,13 +5,13 @@ html {
 
 /*default background color is lightblue*/
 body {
-  background-color: lightblue;
+  background-color: lavender;
 }
 
 /*background turns lavender in 500px windows, lightblue for smaller than 500px*/
 @media screen and (min-width: 500px) {
   body {
-    background-color: lavender;
+    background-color: lightblue;
   }
 }
 
