@@ -31,6 +31,30 @@ p.nonedisplay {
   display: none;
 }
 
+div.box1 {
+  width: 320px;
+  padding: <top> 10px;
+  margin: <top> 0;
+  border-top-style: solid;
+  border-top-color: black;
+}
+
+div.box2 {
+  border-width: 1px;
+  border-style: solid;
+  border-color: green;
+  width: 320px;
+  padding-top: 10px;
+  margin-top: 0;
+}
+
+div.box3 {
+  width: 320px;
+  padding: <top> 10px;
+  margin: auto;
+  border: 10px solid rebeccapurple;
+  border-radius: 1em;
+}
 
 p.inlinedisplay {
   display: inline;
